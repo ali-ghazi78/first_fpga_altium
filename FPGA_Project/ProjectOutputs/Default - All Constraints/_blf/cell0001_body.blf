@@ -1,0 +1,9 @@
+.model FPGA_Project
+.inputs CLOCK
+.outputs LED
+.loc fpga schematic.V 27
+.subckt Verilog1 Designator CLK=-Designator/CLK OUT=+PinSignal_Designator_OUT
+.names CLOCK Designator/CLK
+1 1
+.names PinSignal_Designator_OUT LED
+1 1

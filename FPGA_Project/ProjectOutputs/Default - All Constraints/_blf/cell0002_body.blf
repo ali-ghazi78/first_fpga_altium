@@ -1,0 +1,635 @@
+.model Verilog1
+.inputs CLK
+.outputs OUT
+.names n2
+1
+.loc Verilog1.V 24 OUT
+.latch n39 OUT re CLK 2 n173
+.loc Verilog1.V 16
+.subckt XORCY i208 CI=-i208/CI LI=-i208/LI O=+n16
+.names add_4/n42 i208/CI
+1 1
+.names counter<21> i208/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i213 CI=-i213/CI DI=-i213/DI S=-i213/S O=+add_4/n40
+.names add_4/n38 i213/CI
+1 1
+.names counter<19> i213/DI
+1 1
+.names counter<19> i213/S
+1 1
+.names OUT n39
+0 1
+.loc Verilog1.V 24 counter<31>
+.latch n6 counter<31> re CLK 0 n173
+.loc Verilog1.V 24 counter<30>
+.latch n7 counter<30> re CLK 0 n173
+.loc Verilog1.V 24 counter<29>
+.latch n8 counter<29> re CLK 0 n173
+.loc Verilog1.V 24 counter<28>
+.latch n9 counter<28> re CLK 0 n173
+.loc Verilog1.V 24 counter<27>
+.latch n10 counter<27> re CLK 0 n173
+.loc Verilog1.V 24 counter<26>
+.latch n11 counter<26> re CLK 0 n173
+.loc Verilog1.V 24 counter<25>
+.latch n12 counter<25> re CLK 0 n173
+.loc Verilog1.V 24 counter<24>
+.latch n13 counter<24> re CLK 0 n173
+.loc Verilog1.V 24 counter<23>
+.latch n14 counter<23> re CLK 0 n173
+.loc Verilog1.V 24 counter<22>
+.latch n15 counter<22> re CLK 0 n173
+.loc Verilog1.V 24 counter<21>
+.latch n16 counter<21> re CLK 0 n173
+.loc Verilog1.V 24 counter<20>
+.latch n17 counter<20> re CLK 0 n173
+.loc Verilog1.V 24 counter<19>
+.latch n18 counter<19> re CLK 0 n173
+.loc Verilog1.V 24 counter<18>
+.latch n19 counter<18> re CLK 0 n173
+.loc Verilog1.V 24 counter<17>
+.latch n20 counter<17> re CLK 0 n173
+.loc Verilog1.V 24 counter<16>
+.latch n21 counter<16> re CLK 0 n173
+.loc Verilog1.V 24 counter<15>
+.latch n22 counter<15> re CLK 0 n173
+.loc Verilog1.V 24 counter<14>
+.latch n23 counter<14> re CLK 0 n173
+.loc Verilog1.V 24 counter<13>
+.latch n24 counter<13> re CLK 0 n173
+.loc Verilog1.V 24 counter<12>
+.latch n25 counter<12> re CLK 0 n173
+.loc Verilog1.V 24 counter<11>
+.latch n26 counter<11> re CLK 0 n173
+.loc Verilog1.V 24 counter<10>
+.latch n27 counter<10> re CLK 0 n173
+.loc Verilog1.V 24 counter<9>
+.latch n28 counter<9> re CLK 0 n173
+.loc Verilog1.V 24 counter<8>
+.latch n29 counter<8> re CLK 0 n173
+.loc Verilog1.V 24 counter<7>
+.latch n30 counter<7> re CLK 0 n173
+.loc Verilog1.V 24 counter<6>
+.latch n31 counter<6> re CLK 0 n173
+.loc Verilog1.V 24 counter<5>
+.latch n32 counter<5> re CLK 0 n173
+.loc Verilog1.V 24 counter<4>
+.latch n33 counter<4> re CLK 0 n173
+.loc Verilog1.V 24 counter<3>
+.latch n34 counter<3> re CLK 0 n173
+.loc Verilog1.V 24 counter<2>
+.latch n35 counter<2> re CLK 0 n173
+.loc Verilog1.V 24 counter<1>
+.latch n36 counter<1> re CLK 0 n173
+.loc Verilog1.V 24 counter<0>
+.latch n37 counter<0> re CLK 0 n173
+.loc Verilog1.V 16
+.subckt MUXCY i207 CI=-i207/CI DI=-i207/DI S=-i207/S O=+add_4/n44
+.names add_4/n42 i207/CI
+1 1
+.names counter<21> i207/DI
+1 1
+.names counter<21> i207/S
+1 1
+.names counter<0> n2 n37
+01 1
+10 1
+.loc Verilog1.V 16
+.subckt XORCY i211 CI=-i211/CI LI=-i211/LI O=+n17
+.names add_4/n40 i211/CI
+1 1
+.names counter<20> i211/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i210 CI=-i210/CI DI=-i210/DI S=-i210/S O=+add_4/n42
+.names add_4/n40 i210/CI
+1 1
+.names counter<20> i210/DI
+1 1
+.names counter<20> i210/S
+1 1
+.names counter<0> n209 add_4/n2
+11 1
+.names n37 n209
+0 1
+.loc Verilog1.V 16
+.subckt XORCY i205 CI=-i205/CI LI=-i205/LI O=+n15
+.names add_4/n44 i205/CI
+1 1
+.names counter<22> i205/LI
+1 1
+.names n36 n36 n37 LessThan_5/n4
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i204 CI=-i204/CI DI=-i204/DI S=-i204/S O=+add_4/n46
+.names add_4/n44 i204/CI
+1 1
+.names counter<22> i204/DI
+1 1
+.names counter<22> i204/S
+1 1
+.names n35 n35 LessThan_5/n4 LessThan_5/n6
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i202 CI=-i202/CI LI=-i202/LI O=+n14
+.names add_4/n46 i202/CI
+1 1
+.names counter<23> i202/LI
+1 1
+.names n34 n34 LessThan_5/n6 LessThan_5/n8
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i201 CI=-i201/CI DI=-i201/DI S=-i201/S O=+add_4/n48
+.names add_4/n46 i201/CI
+1 1
+.names counter<23> i201/DI
+1 1
+.names counter<23> i201/S
+1 1
+.names n33 n33 LessThan_5/n8 LessThan_5/n10
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i199 CI=-i199/CI LI=-i199/LI O=+n13
+.names add_4/n48 i199/CI
+1 1
+.names counter<24> i199/LI
+1 1
+.names n32 n32 LessThan_5/n10 LessThan_5/n12
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i198 CI=-i198/CI DI=-i198/DI S=-i198/S O=+add_4/n50
+.names add_4/n48 i198/CI
+1 1
+.names counter<24> i198/DI
+1 1
+.names counter<24> i198/S
+1 1
+.names n31 n31 LessThan_5/n12 LessThan_5/n14
+11- 1
+-01 1
+.names n2 n30 LessThan_5/n15
+01 1
+10 1
+.names n30 LessThan_5/n15 LessThan_5/n14 LessThan_5/n16
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i196 CI=-i196/CI LI=-i196/LI O=+n12
+.names add_4/n50 i196/CI
+1 1
+.names counter<25> i196/LI
+1 1
+.names n29 n29 LessThan_5/n16 LessThan_5/n18
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i195 CI=-i195/CI DI=-i195/DI S=-i195/S O=+add_4/n52
+.names add_4/n50 i195/CI
+1 1
+.names counter<25> i195/DI
+1 1
+.names counter<25> i195/S
+1 1
+.names n28 n28 LessThan_5/n18 LessThan_5/n20
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i193 CI=-i193/CI LI=-i193/LI O=+n11
+.names add_4/n52 i193/CI
+1 1
+.names counter<26> i193/LI
+1 1
+.names n27 n27 LessThan_5/n20 LessThan_5/n22
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i192 CI=-i192/CI DI=-i192/DI S=-i192/S O=+add_4/n54
+.names add_4/n52 i192/CI
+1 1
+.names counter<26> i192/DI
+1 1
+.names counter<26> i192/S
+1 1
+.names n26 n26 LessThan_5/n22 LessThan_5/n24
+11- 1
+-01 1
+.names n2 n25 LessThan_5/n25
+01 1
+10 1
+.names n25 LessThan_5/n25 LessThan_5/n24 LessThan_5/n26
+11- 1
+-01 1
+.names n2 n24 LessThan_5/n27
+01 1
+10 1
+.names n24 LessThan_5/n27 LessThan_5/n26 LessThan_5/n28
+11- 1
+-01 1
+.names n2 n23 LessThan_5/n29
+01 1
+10 1
+.names n23 LessThan_5/n29 LessThan_5/n28 LessThan_5/n30
+11- 1
+-01 1
+.names n2 n22 LessThan_5/n31
+01 1
+10 1
+.names n22 LessThan_5/n31 LessThan_5/n30 LessThan_5/n32
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i190 CI=-i190/CI LI=-i190/LI O=+n10
+.names add_4/n54 i190/CI
+1 1
+.names counter<27> i190/LI
+1 1
+.names n21 n21 LessThan_5/n32 LessThan_5/n34
+11- 1
+-01 1
+.names n2 n20 LessThan_5/n35
+01 1
+10 1
+.names n20 LessThan_5/n35 LessThan_5/n34 LessThan_5/n36
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i189 CI=-i189/CI DI=-i189/DI S=-i189/S O=+add_4/n56
+.names add_4/n54 i189/CI
+1 1
+.names counter<27> i189/DI
+1 1
+.names counter<27> i189/S
+1 1
+.names n19 n19 LessThan_5/n36 LessThan_5/n38
+11- 1
+-01 1
+.names n2 n18 LessThan_5/n39
+01 1
+10 1
+.names n18 LessThan_5/n39 LessThan_5/n38 LessThan_5/n40
+11- 1
+-01 1
+.names n2 n17 LessThan_5/n41
+01 1
+10 1
+.names n17 LessThan_5/n41 LessThan_5/n40 LessThan_5/n42
+11- 1
+-01 1
+.names n2 n16 LessThan_5/n43
+01 1
+10 1
+.names n16 LessThan_5/n43 LessThan_5/n42 LessThan_5/n44
+11- 1
+-01 1
+.names n2 n15 LessThan_5/n45
+01 1
+10 1
+.names n15 LessThan_5/n45 LessThan_5/n44 LessThan_5/n46
+11- 1
+-01 1
+.names n2 n14 LessThan_5/n47
+01 1
+10 1
+.names n14 LessThan_5/n47 LessThan_5/n46 LessThan_5/n48
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i187 CI=-i187/CI LI=-i187/LI O=+n9
+.names add_4/n56 i187/CI
+1 1
+.names counter<28> i187/LI
+1 1
+.names n13 n13 LessThan_5/n48 LessThan_5/n50
+11- 1
+-01 1
+.names n2 n12 LessThan_5/n51
+01 1
+10 1
+.names n12 LessThan_5/n51 LessThan_5/n50 LessThan_5/n52
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i186 CI=-i186/CI DI=-i186/DI S=-i186/S O=+add_4/n58
+.names add_4/n56 i186/CI
+1 1
+.names counter<28> i186/DI
+1 1
+.names counter<28> i186/S
+1 1
+.names n11 n11 LessThan_5/n52 LessThan_5/n54
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i184 CI=-i184/CI LI=-i184/LI O=+n8
+.names add_4/n58 i184/CI
+1 1
+.names counter<29> i184/LI
+1 1
+.names n10 n10 LessThan_5/n54 LessThan_5/n56
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i183 CI=-i183/CI DI=-i183/DI S=-i183/S O=+add_4/n60
+.names add_4/n58 i183/CI
+1 1
+.names counter<29> i183/DI
+1 1
+.names counter<29> i183/S
+1 1
+.names n9 n9 LessThan_5/n56 LessThan_5/n58
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i181 CI=-i181/CI LI=-i181/LI O=+n7
+.names add_4/n60 i181/CI
+1 1
+.names counter<30> i181/LI
+1 1
+.names n8 n8 LessThan_5/n58 LessThan_5/n60
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt MUXCY i180 CI=-i180/CI DI=-i180/DI S=-i180/S O=+add_4/n62
+.names add_4/n60 i180/CI
+1 1
+.names counter<30> i180/DI
+1 1
+.names counter<30> i180/S
+1 1
+.names n7 n7 LessThan_5/n60 LessThan_5/n62
+11- 1
+-01 1
+.names n6 n6 LessThan_5/n62 n173
+11- 1
+-01 1
+.loc Verilog1.V 16
+.subckt XORCY i214 CI=-i214/CI LI=-i214/LI O=+n18
+.names add_4/n38 i214/CI
+1 1
+.names counter<19> i214/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i216 CI=-i216/CI DI=-i216/DI S=-i216/S O=+add_4/n38
+.names add_4/n36 i216/CI
+1 1
+.names counter<18> i216/DI
+1 1
+.names counter<18> i216/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i217 CI=-i217/CI LI=-i217/LI O=+n19
+.names add_4/n36 i217/CI
+1 1
+.names counter<18> i217/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i219 CI=-i219/CI DI=-i219/DI S=-i219/S O=+add_4/n36
+.names add_4/n34 i219/CI
+1 1
+.names counter<17> i219/DI
+1 1
+.names counter<17> i219/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i220 CI=-i220/CI LI=-i220/LI O=+n20
+.names add_4/n34 i220/CI
+1 1
+.names counter<17> i220/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i222 CI=-i222/CI DI=-i222/DI S=-i222/S O=+add_4/n34
+.names add_4/n32 i222/CI
+1 1
+.names counter<16> i222/DI
+1 1
+.names counter<16> i222/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i223 CI=-i223/CI LI=-i223/LI O=+n21
+.names add_4/n32 i223/CI
+1 1
+.names counter<16> i223/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i225 CI=-i225/CI DI=-i225/DI S=-i225/S O=+add_4/n32
+.names add_4/n30 i225/CI
+1 1
+.names counter<15> i225/DI
+1 1
+.names counter<15> i225/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i226 CI=-i226/CI LI=-i226/LI O=+n22
+.names add_4/n30 i226/CI
+1 1
+.names counter<15> i226/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i228 CI=-i228/CI DI=-i228/DI S=-i228/S O=+add_4/n30
+.names add_4/n28 i228/CI
+1 1
+.names counter<14> i228/DI
+1 1
+.names counter<14> i228/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i229 CI=-i229/CI LI=-i229/LI O=+n23
+.names add_4/n28 i229/CI
+1 1
+.names counter<14> i229/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i231 CI=-i231/CI DI=-i231/DI S=-i231/S O=+add_4/n28
+.names add_4/n26 i231/CI
+1 1
+.names counter<13> i231/DI
+1 1
+.names counter<13> i231/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i232 CI=-i232/CI LI=-i232/LI O=+n24
+.names add_4/n26 i232/CI
+1 1
+.names counter<13> i232/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i234 CI=-i234/CI DI=-i234/DI S=-i234/S O=+add_4/n26
+.names add_4/n24 i234/CI
+1 1
+.names counter<12> i234/DI
+1 1
+.names counter<12> i234/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i235 CI=-i235/CI LI=-i235/LI O=+n25
+.names add_4/n24 i235/CI
+1 1
+.names counter<12> i235/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i237 CI=-i237/CI DI=-i237/DI S=-i237/S O=+add_4/n24
+.names add_4/n22 i237/CI
+1 1
+.names counter<11> i237/DI
+1 1
+.names counter<11> i237/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i238 CI=-i238/CI LI=-i238/LI O=+n26
+.names add_4/n22 i238/CI
+1 1
+.names counter<11> i238/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i240 CI=-i240/CI DI=-i240/DI S=-i240/S O=+add_4/n22
+.names add_4/n20 i240/CI
+1 1
+.names counter<10> i240/DI
+1 1
+.names counter<10> i240/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i241 CI=-i241/CI LI=-i241/LI O=+n27
+.names add_4/n20 i241/CI
+1 1
+.names counter<10> i241/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i243 CI=-i243/CI DI=-i243/DI S=-i243/S O=+add_4/n20
+.names add_4/n18 i243/CI
+1 1
+.names counter<9> i243/DI
+1 1
+.names counter<9> i243/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i244 CI=-i244/CI LI=-i244/LI O=+n28
+.names add_4/n18 i244/CI
+1 1
+.names counter<9> i244/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i246 CI=-i246/CI DI=-i246/DI S=-i246/S O=+add_4/n18
+.names add_4/n16 i246/CI
+1 1
+.names counter<8> i246/DI
+1 1
+.names counter<8> i246/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i247 CI=-i247/CI LI=-i247/LI O=+n29
+.names add_4/n16 i247/CI
+1 1
+.names counter<8> i247/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i249 CI=-i249/CI DI=-i249/DI S=-i249/S O=+add_4/n16
+.names add_4/n14 i249/CI
+1 1
+.names counter<7> i249/DI
+1 1
+.names counter<7> i249/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i250 CI=-i250/CI LI=-i250/LI O=+n30
+.names add_4/n14 i250/CI
+1 1
+.names counter<7> i250/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i252 CI=-i252/CI DI=-i252/DI S=-i252/S O=+add_4/n14
+.names add_4/n12 i252/CI
+1 1
+.names counter<6> i252/DI
+1 1
+.names counter<6> i252/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i253 CI=-i253/CI LI=-i253/LI O=+n31
+.names add_4/n12 i253/CI
+1 1
+.names counter<6> i253/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i255 CI=-i255/CI DI=-i255/DI S=-i255/S O=+add_4/n12
+.names add_4/n10 i255/CI
+1 1
+.names counter<5> i255/DI
+1 1
+.names counter<5> i255/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i256 CI=-i256/CI LI=-i256/LI O=+n32
+.names add_4/n10 i256/CI
+1 1
+.names counter<5> i256/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i258 CI=-i258/CI DI=-i258/DI S=-i258/S O=+add_4/n10
+.names add_4/n8 i258/CI
+1 1
+.names counter<4> i258/DI
+1 1
+.names counter<4> i258/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i259 CI=-i259/CI LI=-i259/LI O=+n33
+.names add_4/n8 i259/CI
+1 1
+.names counter<4> i259/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i261 CI=-i261/CI DI=-i261/DI S=-i261/S O=+add_4/n8
+.names add_4/n6 i261/CI
+1 1
+.names counter<3> i261/DI
+1 1
+.names counter<3> i261/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i262 CI=-i262/CI LI=-i262/LI O=+n34
+.names add_4/n6 i262/CI
+1 1
+.names counter<3> i262/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i264 CI=-i264/CI DI=-i264/DI S=-i264/S O=+add_4/n6
+.names add_4/n4 i264/CI
+1 1
+.names counter<2> i264/DI
+1 1
+.names counter<2> i264/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i265 CI=-i265/CI LI=-i265/LI O=+n35
+.names add_4/n4 i265/CI
+1 1
+.names counter<2> i265/LI
+1 1
+.loc Verilog1.V 16
+.subckt MUXCY i267 CI=-i267/CI DI=-i267/DI S=-i267/S O=+add_4/n4
+.names add_4/n2 i267/CI
+1 1
+.names counter<1> i267/DI
+1 1
+.names counter<1> i267/S
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i268 CI=-i268/CI LI=-i268/LI O=+n36
+.names add_4/n2 i268/CI
+1 1
+.names counter<1> i268/LI
+1 1
+.loc Verilog1.V 16
+.subckt XORCY i270 CI=-i270/CI LI=-i270/LI O=+n6
+.names add_4/n62 i270/CI
+1 1
+.names counter<31> i270/LI
+1 1

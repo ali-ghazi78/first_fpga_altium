@@ -1,0 +1,29 @@
+////////////////////////////////////////////////////////////////////////////////
+// SubModule Verilog1
+// Created   9/24/2018 9:22:50 PM
+////////////////////////////////////////////////////////////////////////////////
+
+module Verilog1 (CLK, OUT);
+input CLK;
+output reg OUT;
+reg [31:0] counter;
+initial begin
+ counter=0;
+ OUT=0;
+
+ end
+always @(posedge CLK)begin
+       counter=counter+1;
+       if(counter>50000000)begin
+          counter=0;
+          OUT=~OUT;
+
+       end
+
+
+end
+
+endmodule
+
+
+////////////////////////////////////////////////////////////////////////////////

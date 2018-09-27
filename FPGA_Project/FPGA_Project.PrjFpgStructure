@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=fpga schematic.SchDoc
+Record=SheetSymbol|SourceDocument=fpga schematic.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Verilog1.V|SymbolType=Normal|RawFileName=Verilog1.V|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=Configuration|Name=Default - All Constraints|DeviceName=XC6SLX9-2TQG144C

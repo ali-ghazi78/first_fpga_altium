@@ -1,0 +1,4 @@
+.model FPGA_Project
+.inputs CLOCK
+.attrib FPGA_CLOCK 1 True
+.outputs LED

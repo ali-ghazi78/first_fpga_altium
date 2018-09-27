@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Fri Sep 28 00:57:23 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED" LOCATE = SITE "P124" LEVEL 1;
+COMP "CLOCK" LOCATE = SITE "P56" LEVEL 1;
+SCHEMATIC END;
+

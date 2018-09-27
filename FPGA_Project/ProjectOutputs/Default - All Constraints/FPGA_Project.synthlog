@@ -1,0 +1,70 @@
+###############################################################################
+### Altium HDL Synthesizer 1.1.0.1
+### Copyright (C) 2005-2009, Altium Limited. All Rights Reserved
+###############################################################################
+### Timestamp: 9/28/2018 12:57:11 AM
+###############################################################################
+### Commandline: AltiumSynthesizer.exe "-o" "FPGA_Project.mof" "-p" "FPGA_Project.mpf"
+###
+### Options:
+###
+### Synthesizing FPGA_Project for Spartan6
+### Entity                  : FPGA_Project
+### VerilogMode             : 1 (0=Verilog95, 1=Verilog2001, 2=VerilogSystem, 3=Ams)
+### VHDL87                  : False
+### Insert Toplevel Buffers : True
+### Combinational Logic Opt : 3 (1=Low, 3=Normal, 5=High)
+###############################################################################
+### Compilation Report
+###############################################################################
+
+##N|The default vhdl library search path is now "C:/Users/Public/Documents/Altium/AD17/Library/VHDL/VHDL93"
+Analyzing Verilog file C:\Users\ali\Desktop\my fpga first\FPGA_Project\Verilog1.V
+Analyzing Verilog file C:\Users\ali\Desktop\my fpga first\FPGA_Project\ProjectOutputs\Default - All Constraints\fpga schematic.V
+###############################################################################
+### Elaboration Report
+###############################################################################
+
+##N|Verilog1.V|6|compiling module Verilog1
+##I|Verilog1.V|16|-- found Adder: 32+32
+##I|Verilog1.V|17|-- found LessThan: 32<32
+##N|fpga schematic.V|12|compiling module FPGA_Project
+
+###############################################################################
+### Synthesis Report
+###############################################################################
+
+###############################################################################
+### Optimization Report
+###  command: mmHDLtoEDIF -f xilinx -n spartan6 -p spartan6 -z 3 -o "C:\Users\ali\Desktop\my fpga first\FPGA_Project\ProjectOutputs\Default - All Constraints\FPGA_Project.edf" -b "C:\Users\ali\Desktop\my fpga first\FPGA_Project\ProjectOutputs\Default - All Constraints\FPGA_Project.bfl" -e FPGA_Project -L "C:\Users\Public\Documents\Altium\AD17\Library/" 
+
+INFO LibDir:  "C:\Users\Public\Documents\Altium\AD17\Library/"
+
+INFO ConstraintsMap:  "C:\Users\Public\Documents\Altium\AD17\Library/vhdl_lib/VendorConstraints.map"
+
+optimizing "_blf/cell0001"
+optimizing "_blf/cell0002"
+ 
+###############################################################################
+### Design Statistics
+###############################################################################
+ 
+Flipflops:                                                : 33
+    Flipflops with RESET                    (Synchronous) : 32
+    Flipflops with ENABLE                                 : 1
+                                                          
+MacroCells:                                               
+    XORCY                                                 : 31
+    MUXCY                                                 : 30
+                                                          
+Area Estimates:                                           
+    Area Estimate (2 Input Gate Count)                    : 26
+    Area Estimate (LUT Count)                             : 19
+ 
+###############################################################################
+ 
+formating EDIF....                            
+
+###############################################################################
+Synthesis successful
+###############################################################################

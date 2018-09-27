@@ -1,0 +1,7 @@
+INFILE=C:\Users\ali\Desktop\my fpga first\FPGA_Project\ProjectOutputs\Default - All Constraints\fpga_project.ncd
+OUTFILE=C:\Users\ali\Desktop\my fpga first\FPGA_Project\ProjectOutputs\Default - All Constraints\fpga_project_cclk.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\ali\Desktop\my fpga first\FPGA_Project\ProjectOutputs\Default - All Constraints
+LICENSE=WebPack
+USER_INFO=_

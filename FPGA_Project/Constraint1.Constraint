@@ -1,0 +1,21 @@
+;...............................................................................
+;Constraints File
+;   Device  :
+;   Board   :
+;   Project :
+;
+;   Created 9/19/2018
+;...............................................................................
+
+;...............................................................................
+Record=FileHeader | Id=DXP Constraints v1.0
+;...............................................................................
+
+
+Record=Constraint | TargetKind=Part | TargetId=XC6SLX9-2TQG144C
+
+
+Record=Constraint | TargetKind=Port | TargetId=CLOCK | FPGA_PINNUM=P56
+Record=Constraint | TargetKind=Port | TargetId=LED | FPGA_PINNUM=P124 | FPGA_CLOCK=True
+
+

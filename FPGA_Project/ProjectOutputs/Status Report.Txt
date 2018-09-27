@@ -1,0 +1,9 @@
+Output: Component Cross Reference Report
+Type  : ReportComponents
+From  : Variant [[No Variations]] of Project [FPGA_Project.PrjFpg]
+
+
+Files Generated   : 0
+Documents Printed : 0
+
+Finished Output Generation At 9:42:09 PM On 9/24/2018

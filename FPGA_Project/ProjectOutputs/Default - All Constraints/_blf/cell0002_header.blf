@@ -1,0 +1,3 @@
+.model Verilog1
+.inputs CLK
+.outputs OUT
